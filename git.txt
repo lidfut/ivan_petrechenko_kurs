@@ -1,0 +1,16 @@
+git init
+git config --global user.name "lidfut"
+git config --global user.email solo2648@yandex.ru
+
+
+git status
+git add -A 
+git commit -a -m"first commit"
+
+
+git remote add origin https://github.com/lidfut/ivan_petrechenko_kurs.git
+    git branch -M main
+git push -u origin main
+
+
+git pull
